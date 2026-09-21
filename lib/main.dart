@@ -12,7 +12,9 @@ void main(){
                 Colors.white,
                 Colors.blue,
                 Colors.red,
-              ]
+              ],
+              begin: AlignmentGeometry.topCenter,
+              end: AlignmentGeometry.bottomCenter,
             )
           ),
           child: Center(
