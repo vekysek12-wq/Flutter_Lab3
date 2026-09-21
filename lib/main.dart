@@ -18,7 +18,13 @@ void main(){
             )
           ),
           child: Center(
-            child: Text("rrr!@#%%")
+            child: Text(
+              "rrr!@#%%",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 32,
+              ),
+            )
           )
         ),
       ),
